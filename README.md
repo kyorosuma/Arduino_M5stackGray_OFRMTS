@@ -1,2 +1,2 @@
-# M5Stack_text
- 20250128_追記
+# Arduino_M5stackGray_OFRMTS
+ 20250128_追記:タイトルM5stack_textから変更
