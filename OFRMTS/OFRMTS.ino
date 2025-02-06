@@ -42,7 +42,7 @@ void loop() {
     int sensorValue = analogRead(SENSOR_PIN);
     displayNumber(sensorValue, 50, 120, WHITE, 2);
     
-    if (sensorValue >= 1000) {
+    if (sensorValue >= 2000) {
         playTone(1000, 500); // 1000Hzの音を500ms鳴らす
         displayText("Sound ON", 50, 140, WHITE, 2);
     } else {
